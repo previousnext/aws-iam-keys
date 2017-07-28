@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 VERSION=$(shell git describe --tags --always)
-IMAGE=previousnext/sshd-iam-user
+IMAGE=previousnext/aws-iam-keys
 
 release: build push
 

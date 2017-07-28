@@ -1,15 +1,17 @@
-PNX Project: Go Edition
-=======================
+AWS IAM: Authorized Keys
+========================
 
-[![CircleCI](https://circleci.com/gh/previousnext/sshd-iam-user.svg?style=svg)](https://circleci.com/gh/previousnext/sshd-iam-user)
+[![CircleCI](https://circleci.com/gh/previousnext/aws-iam-keys.svg?style=svg)](https://circleci.com/gh/previousnext/aws-iam-keys)
 
 **Maintainer**: Nick Schuch
 
-This is a brief description on what the project does.
+A simple `authorized_keys` file generator backed by an IAM group.
 
-## Resources
+## How it works
 
-* [Dave Cheney - Reproducible Builds](https://www.youtube.com/watch?v=c3dW80eO88I)
+* Start loops that checks the IAM group every minute
+* Writes a new `authorized_keys` file
+* Ensures permissions are correct
 
 ## Development
 

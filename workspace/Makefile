@@ -5,7 +5,7 @@
 GOPATH := $(shell pwd):$(shell pwd)/vendor
 export GOPATH
 
-NAME=sshd-iam-user
+NAME=aws-iam-keys
 PACKAGE=github.com/previousnext/$(NAME)
 
 # Build binaries for linux/amd64 and darwin/amd64
