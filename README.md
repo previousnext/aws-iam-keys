@@ -9,7 +9,6 @@ A simple `authorized_keys` file generator backed by an IAM group.
 
 ## How it works
 
-* Start loops that checks the IAM group every minute
 * Writes a new `authorized_keys` file
 * Ensures permissions are correct
 
